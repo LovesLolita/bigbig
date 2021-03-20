@@ -51,6 +51,7 @@ $(function () {
                 }, function () {
                     initUser();
                 });
+                window.parent.getUserInfo();
             }
         })
     })
